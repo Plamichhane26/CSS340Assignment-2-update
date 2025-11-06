@@ -5,9 +5,8 @@
 #include <string>
 #include <iostream>
 #include <vector>
-
+#include <memory>
 #include "LinkedBag.h"
-
 #include "Event.h"
 Event::Event() : name(""), description(""), rating(0.0), ticketsSold(0) {}
 
